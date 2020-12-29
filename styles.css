@@ -1,0 +1,29 @@
+table,
+td {
+    table-layout: fixed;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table td:nth-child(1) {
+    width: 20%;
+}
+body {
+    font-family: sans-serif;
+    background-color: darkslategray;
+    color: cadetblue;
+}
+header,
+footer {
+    text-align: center;
+    color: cadetblue;
+}
+header,
+a {
+    color: white;
+}
+.standsOut {
+    background-color: cadetblue;
+    color: darkslategray;
+}
